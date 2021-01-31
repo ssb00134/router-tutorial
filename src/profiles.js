@@ -14,7 +14,11 @@ const profiles = () => {
           <link to="/profiles/gildong">gildong</link>
         </li>
       </ui>
-      <Route path="/proflies" />
+      <Route
+        path="/proflies"
+        exat
+        render={() => <div>사용자를 선택해 주세요</div>}
+      />
     </div>
   );
 };
